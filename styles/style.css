@@ -1,0 +1,93 @@
+*{margin: 0;}
+header h1{text-align: center;
+padding-top: 1%;
+padding-right: 6%;
+display: flex; 
+justify-content: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+header div{height: 70px;}
+
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 20%; 
+    border-left: 3px solid white;
+    height: 50px;
+}
+#contact{
+    border-right: 3px solid white;
+   }
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: #2c3030;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;}
+ footer h4{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 7px;
+        margin: auto;
+    }
+form {
+    display: block;
+    width: 400px;
+    margin: auto;
+    border: 1px solid #c4c1c1;
+    padding: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+#name,#email,#message 
+  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c1c1;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #submit {
+    background-color: #36b93a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor:pointer;
+  }
+  
+  #submit:hover {
+    background-color: #3e8e41;
+  }
