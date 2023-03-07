@@ -6,7 +6,8 @@ display: flex;
 justify-content: center;
 font-family: fantasy;
 font-size: 3em;}
-header div{height: 70px;}
+header div{height: 4%;
+  margin-top: 1%;}
 
 
 .navigation nav {
@@ -122,10 +123,12 @@ text-align: center;}
   height: 18em;
 background-color: #2c3030;
 color: white;
-margin-top: 15em;}
+margin-top: 15em;
+display: flex;
+justify-content: space-between;}
 
 .helpinfo{float: left;
-  width: 50%;}
+  width: 80%;}
 .helpinfo h2{
   margin-top: 1.5%;
   text-align: center;
@@ -139,15 +142,22 @@ font-size: 0.9em;
 color: red;}
 .helpinfo nav ol li p{color: green;}
 
+.Dcontact{margin-left: 13%;}
 .Dcontact h2{  padding-top: 0.7%;
   text-align: center;
   margin-right: 10%;}
-.Dcontact nav ul{margin-top: 2em;
-  margin-left: 58%}
+.Dcontact h3{ text-align: center;
+  margin-right: 10%;
+  padding-top: 0.3%;
+padding-bottom: 0.4%;}
+.Dcontact nav ul{margin-top: 1em;
+  margin-left: 25%}
 .Dcontact nav ul li{list-style-type: none;
 padding-bottom: 1em;
 }
-
+.paymethod{text-align: center;
+margin-right: 17%;}
+.Dcontact img{margin-left: 6.5%;}
   footer {
     background-color: #2c3030;
     height: 30px;
