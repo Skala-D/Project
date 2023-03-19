@@ -73,7 +73,18 @@ form {
   
   label {
     margin-bottom: 10px;
+    
   }
+  label::before{
+			content: "* ";
+			color: red;
+			font-size: 18px;
+
+  }
+  #gender{
+    margin-top: 2%;
+    margin-bottom: 7%;}
+  input[type="radio"]{width: 15%;}
   
 #name,#email,#message 
   {
@@ -172,4 +183,9 @@ margin-right: 17%;}
         text-align: center;
         padding-top: 7px;
         margin: auto;
+    }
+    .video{
+      margin-top: 10%;
+      float: none;
+      text-align: center;
     }

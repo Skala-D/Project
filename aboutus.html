@@ -19,7 +19,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="men.html">Men</a></li>
                 <li><a href="women.html">Women</a></li>
-                <li id="contact"><a href="aboutus.html">Contact</a></li>
+                <li id="contact"><a href="aboutus.html">About us</a></li>
             </ul>
         </nav>
     </div>
@@ -27,15 +27,20 @@
     <main>
         <section class="Form">
             <h2>Contact us via form</h2>
-        <form>
+        <form action="http:/foo.com" method="get">
             <label for="name">Full name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" placeholder="Enter full name" required>
           
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
           
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <label for="gender">Gender :</label><br>
+            <input type="radio" id="gender" name="gender" value="male" required>Male
+            <input type="radio" id="gender" name="gender" value="female" required>Female
+            <input type="radio" id="gender" name="gender" value="other" required>Other
+            <br>
+            <label for="message">Query:</label>
+            <textarea cols="40" rows="4" id="message" name="message" placeholder="Enter your message. Maximum of 200 characters" maxlength="200" required></textarea>
           
             <input id="submit" type="submit" value="Submit">
           </form>
@@ -54,11 +59,15 @@
                     <li>ADDRESS: Benbulben Court, Sligo, Ireland, F91ED2V</li>
                 </ul>
             </nav>
-            <img width="4%" src="images/phone.png">
-            <img width="4%" src="images/email.png">
-            <img width="4%" src="images/location.png">
+            <img width="4%" src="images/phone.png" alt="phone" title="downloaded from freepik">
+            <img width="4%" src="images/email.png" alt="Email" title="downloaded from freepik">
+            <img width="4%" src="images/location.png" alt="location" title="downloaded from freepik">
 
         </div>
+        </section>
+        <section class="video">
+            <H2>2023 fashion</H2><br>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/UW-lhIBB4Tc" title="FUJI X100V OUTDOOR FASHION SHOOT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="      border: 3px solid black;"></iframe>
         </section>
         <section class="support">
             <div class="helpinfo">
@@ -96,9 +105,9 @@
                 <div class="paymethod">
 
                 
-                <img width="8%"  src="images/card.png">
-                <img width="8%" src="images/paypal.png">
-                <img width="8%" src="images/money.png">
+                    <img width="8%"  src="images/card.png" alt="Card" title="downloaded from freepik">
+                    <img width="8%" src="images/paypal.png" alt="Paypal" title="downloaded from freepik">
+                    <img width="8%" src="images/money.png" alt="Money" title="downloaded from freepik">
                 </div>
             </div>
 
