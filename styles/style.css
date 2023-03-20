@@ -1,4 +1,5 @@
 *{margin: 0;}
+/* this applies styling to header h1 and div element (its child elements) */
 header h1{text-align: center;
 padding-top: 0.5%;
 padding-right: 6%;
@@ -9,7 +10,8 @@ font-size: 3em;}
 header div{height: 4%;
   margin-top: 1%;}
 
-
+/* centering the content to the middle, background color,
+   hover color, border for each part, size, etc.. */
 .navigation nav {
     background-color: black;
 }
@@ -43,7 +45,7 @@ header div{height: 4%;
     background-color: white;
     color: black;
 }
-
+ /* dividing the section into 2 parts, editing colors, padding, margin, type of font, etc.. */
 .info{margin-bottom: 10%;}
 .infotext{width: 40%;
 float: left;
@@ -60,9 +62,7 @@ font-size: 1.05em;}
   margin-top: 7%;
 }
 
-.Form h2{text-align: center;
-margin-bottom: 20px;
-margin-top: 20px;}
+/* Form editing - setting border, colors, content align, width, etc... */
 form {
     display: block;
     width: 400px;
@@ -70,7 +70,9 @@ form {
     border: 1px solid #c4c1c1;
     padding: 20px;
   }
-  
+  .Form h2{text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;}
   label {
     margin-bottom: 10px;
     
@@ -109,27 +111,8 @@ form {
     background-color: #3e8e41;
   }
 
-  .Location{width: 40%;
-  margin-left:5%;
-margin-top: 5%;
-float: left;}
-  .Location h2{text-align: center;
-  margin-right: 8%;
-  margin-bottom: 6%;}
-
-.contactinfo{padding-top: 5%;
-  }
-.contactinfo h2{text-align: center;
-margin-bottom: 5%;}
-.contactinfo nav ul{    margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;}
-.contactinfo nav ul li{padding-bottom: 2em;
-text-align: center;}
-.contactinfo img{margin-left: 10.5%;
-  margin-top: 1%;}
-
+  /* setting the bottom of the page to be helpful to users. 
+   centering the content, setting color for each part, font size, images etc.. */
 .support{width: 100%;
   height: 18em;
 background-color: #2c3030;
@@ -169,6 +152,8 @@ padding-bottom: 1em;
 .paymethod{text-align: center;
 margin-right: 17%;}
 .Dcontact img{margin-left: 6.5%;}
+
+/* making the position of footer to be the same + setting color, size etc.. */
   footer {
     background-color: #2c3030;
     height: 30px;
@@ -184,6 +169,8 @@ margin-right: 17%;}
         padding-top: 7px;
         margin: auto;
     }
+
+    /*centering the video to the middle*/
     .video{
       margin-top: 10%;
       float: none;
