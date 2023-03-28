@@ -1,6 +1,10 @@
 * {
   margin: 0;
 }
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
 /* this applies styling to header h1 and div element (its child elements) */
 header h1 {
   text-align: center;
